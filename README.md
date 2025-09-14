@@ -67,6 +67,7 @@ It showcases multiple pages with a consistent design and layout, following a beg
 
 ## 📂 Project Structure
 
+```
 collabspace/
 ├── index.html # Home
 ├── about.html # About
@@ -79,6 +80,7 @@ collabspace/
 └── assets/
 ├── images/ # Placeholder images
 └── icons/ # Icons & social logos
+```
 
 ---
 
