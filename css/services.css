@@ -20,6 +20,7 @@ body{
   width: 70%;
   align-items: center;
   margin: 0 auto;
+  margin-top: 125px;
 }
 
 .services-button{
@@ -34,10 +35,13 @@ body{
   flex-basis: 25%;
   margin: auto;
   margin-top: 25px;
-  
   justify-content: space-around;
   height: 100px;
   width: 200px;
+  transition: 5s;
+}
+.services-button:hover{
+  background-color: rgba(48, 49, 49, .5)
 }
 .child-container{
   display: flex;
