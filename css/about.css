@@ -1,0 +1,40 @@
+/* Header Navigation */
+header {
+  position: fixed; /* Remains on screen even if you scroll */
+  top: 0;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: white;
+  /* shadow at the bottom */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.navigation-links ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.navigation-links ul li a {
+  text-decoration: none;
+  padding: 15px 10px;
+  color: black;
+    border-radius: 10px;
+}
+
+.navigation-links ul li a:hover {
+  background-color: #333333;
+  color: white;
+  transition: all ease-in-out 0.3s;
+}
